@@ -17,9 +17,9 @@ import logging
 warnings.filterwarnings("ignore", category=UserWarning)
 
 # === Configuration ===
-TOKEN = "7452070188:AAEXXLwegPq_dCEIUy3Q2eqaICLZMGIkIAE"  # Replace with your bot's token
-ADMIN_ID = 8167564963  # Replace with your Telegram user ID
-ADMIN_CHANNEL = -1002823024470  # Replace with your private channel username
+TOKEN = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"  # Replace with your bot's token
+ADMIN_ID = xxxxxxx  # Replace with your Telegram user ID
+ADMIN_CHANNEL = -xxxxxxxx  # Replace with your private channel username
 BASE_URL = "https://savastan0.tools"
 LOGIN_PAGE = f"{BASE_URL}/login"
 CAPTCHA_URL = f"{BASE_URL}/captcha.php"
@@ -856,3 +856,4 @@ if __name__ == "__main__":
             print(f"Bot crashed: {e}")
             print("Restarting in 5 seconds...")
             time.sleep(5)  # Wait before restarting
+
